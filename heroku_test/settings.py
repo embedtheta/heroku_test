@@ -99,6 +99,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
+ADMIN_MEDIA_PREFIX = '/static/admin/' 
 
 STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
